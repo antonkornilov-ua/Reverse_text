@@ -7,7 +7,6 @@ let textInput = document.querySelector("input");
 let button = document.querySelector("buttonreverse").addEventListener('click', reverseText)
 let outpuText = document.querySelector("output");
 
-reverseText () {
-let reText = textInput.split('').reverse().join('');
-return outpuText.innerHTML(reText)
-}
+function reverseText () {
+    return outpuText.innerHTML = textInput.value.split('').reverse().join('');
+};
