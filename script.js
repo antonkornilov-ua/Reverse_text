@@ -11,6 +11,6 @@ function reverseText () {
     return outpuText.innerHTML = textInput.value.split('').reverse().join('');
 };
 
-function fuck(params) {
-    alert ('FUCK! It Works!')
-}
+// function fuck(params) {
+//     alert ('FUCK! It Works!')
+// }
