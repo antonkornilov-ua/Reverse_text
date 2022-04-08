@@ -4,8 +4,8 @@ margin: 0;
 }
 
 
-.input,
-.output {
+#inputMe,
+#outputMe {
 margin-top: 15px;
 width: 200px;
 height: 15px;
